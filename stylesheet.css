@@ -12,6 +12,8 @@ header {
     background-repeat: no-repeat;
     display:flex;
     flex-direction: column;
+    position:fixed;
+    width: 100%;
 
 }
 nav {
@@ -20,6 +22,7 @@ nav {
     align-items: center;
     padding: 10px 20px;
     border-bottom: 4px solid #eee;
+
 }
 .fan-container {
     display: flex;
@@ -37,6 +40,7 @@ nav {
     width: 30px;
     cursor: pointer;
 }
+
 .bar {
     height: 3px;
     width: 100%;
@@ -49,11 +53,14 @@ ul {
     gap: 15px;
     margin: 0;
     padding: 0;
+    
 }
 ul li {
     display: inline;
     padding :2s ease;
     color: #474747;
+    
+
 }
 ul li a:hover{
     background: #474747;
